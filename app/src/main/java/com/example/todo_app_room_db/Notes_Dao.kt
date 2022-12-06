@@ -23,5 +23,4 @@ interface Notes_Dao {
 
     @Query("DELETE FROM notes")
     suspend fun deleteAllUser()
-
 }

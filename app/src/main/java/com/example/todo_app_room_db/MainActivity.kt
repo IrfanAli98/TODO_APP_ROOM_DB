@@ -84,7 +84,6 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.it_delete -> {
                 viewModel.deleteAllNotes()
-                finish()
             }
         }
         return super.onOptionsItemSelected(item)
